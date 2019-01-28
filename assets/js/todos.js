@@ -53,7 +53,7 @@ function translate(lng) {
     var idm = getDct(lng);
     $("#languageBtn").text(idm.lng);
     $("#title").text(idm.title);
-    $("input").val(idm.placeHolder);
+    $("input").attr("placeholder", idm.placeHolder);
 }
 
 $("#stripe").on("click", "#languageBtn",function(event){

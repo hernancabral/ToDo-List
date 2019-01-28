@@ -21,6 +21,7 @@ h1 {
     text-transform: uppercase;
     font-size: 24px;
     font-weight: normal;
+    transition: all 3s;
 }
 
 ul {
@@ -119,4 +120,8 @@ input:focus{
 #languageBtn:hover{
 	color:white;
 	background-color: orange;
+}
+
+#title {
+    transition: all 3s;
 }
